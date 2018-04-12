@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <header> <!-- This is the sticky header -->
+        <div class="wrapper clearfix">
+            <div class="Header" "nav-menu">
+            
+                <h1 id="Name">Artur Aleksandryuk</h1>
+                
+                <nav>
+                    <a href="index.html">About</a>
+                    |
+                    <a href="portfolio.html">Portfolio</a>
+                    |
+                    <a href="contact.html">Contact</a>    
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--Header-->
+
+    <section> 
+        <div>
+            <h1 id="About">Contact</h1> <!-- Heading -->
+        </div>  
+
+    <!--Contact Form-->    
+
+    <form action="/my-handling-form-page" method="post">
+          <div>
+            <label for="name">Name:</label>
+        <br>
+            <input type="text" id="name" name="user_name">
+          </div>
+        
+          <div>
+            <label for="mail">E-mail:</label>
+        <br>
+            <input type="email" id="mail" name="user_email">
+          </div>
+        
+          <div>
+            <label for="msg">Message:</label>
+        <br>
+            <textarea id="msg" name="user_message"></textarea>
+          </div>
+         
+          <div class="button">
+            <button id="button" type="submit">Submit</button>
+          </div>
+        </form>
+
+        <!-- Footer Area -->
+
+    <footer>
+        <div>
+            <p id="right">
+                Copyright &copy;
+            </p>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
